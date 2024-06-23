@@ -4,7 +4,7 @@ import { TiledResource } from '@excaliburjs/plugin-tiled';
 // voeg hier jouw eigen resources toe
 const Resources = {
 
-    Enemy: new ImageSource('images/trol.png'),
+    
     RedMoonPotion: new ImageSource('images/redMoonPotion.png'),
     PinkMoonPotion: new ImageSource('images/pinkMoonPotion.png'),
     PurpleMoonPotion: new ImageSource('images/purpleMoonPotion.png'),
@@ -23,6 +23,12 @@ const Resources = {
     PlayerIdleLeft: new ImageSource('images/B_witch_left_idle.png'),
     PlayerRunRight: new ImageSource('images/B_witch_right_run.png'),
     PlayerRunLeft: new ImageSource('images/B_witch_left_run.png'),
+    // PlayerDamageRight: new ImageSource('images/B_witch_right_damage.png'),
+    // PlayerDamageLeft: new ImageSource('images/B_witch_left_damage.png'),
+    // PlayerDeathRight: new ImageSource('images/B_witch_right_death.png'),
+    // PlayerDeathLeft: new ImageSource('images/B_witch_left_death.png'),
+    // PlayerAttackRight: new ImageSource('images/B_witch_right_attack.png'),
+    // PlayerAttackLeft: new ImageSource('images/B_witch_left_attack.png'),
     PlayerCharge: new ImageSource('images/B_witch_right_charge.png'),
 
 
@@ -33,7 +39,7 @@ const Resources = {
 const ResourceLoader = new Loader([
 
 
-    Resources.Enemy,
+    
     Resources.RedMoonPotion,
     Resources.PlayerIdleLeft,
     Resources.PlayerIdleRight,
@@ -50,7 +56,7 @@ const ResourceLoader = new Loader([
     Resources.BlueMoonPotion,
     Resources.BlackMoonPotion,
     Resources.YellowMoonPotion,
-    Resources.TurquoiseMoonPotion,
+    Resources.TurquoiseMoonPotion
    
 
 
